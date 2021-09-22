@@ -6,6 +6,6 @@
 
 <p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help.</p>
 
-<h5 style="background-color:Orange;">IMPORTANT: Please contact me if you want to use my code.</h5>
+<h5 style="background-color:#ffa500;">IMPORTANT: Please contact me if you want to use my code.</h5>
 
 
