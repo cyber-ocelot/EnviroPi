@@ -2,7 +2,7 @@
 
 <p>This is all my code for my enviroment monitoring Raspberry Pi, feel free to explore around it! &#128516;</p>
 <p><a href="https://io.adafruit.com/Thuviksa/dashboards/weather-monitor">Here</a> is my AdaFruit dashboard. &#128187;</p>
-<p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, remove vvv</p>
+<p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and remove vvv</p>
 
 <h4>os.envrion.get</h4>
 <h4> from dotenv import load_dotenv</h4>
