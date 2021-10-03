@@ -7,9 +7,10 @@
 <h5>from dotenv import load_dotenv</h5>
 <h5>import os</h5>
 <h5>load_dotenv()</h5>
-<h5>os.envrion.get</h5>
+<h5>os.envrion.get("ADAFRUIT_IO_USERNAME")</h5>
+<h5>os.environ.get("ADAFRUIT_IO_USERNAME")</h5>
 
-<h4>&#10071; IMPORTANT: If you share your code somewhere, make sure to keep ^^^, and create a .env text file to keep your AdaFruitIO_Username and AdaFruitIO_Key variables.</h4>
+<h4>&#10071; IMPORTANT: If you share your code somewhere, make sure to keep ^^^, and create a .env text file to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables.</h4>
 
 <p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help, you both are magical. &#129412;</p>
 
