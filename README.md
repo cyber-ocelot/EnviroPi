@@ -33,7 +33,7 @@
     AdaFruitIO_Username = os.envrion.get("ADAFRUIT_IO_USERNAME")
     AdaFruitIO_Key = os.environ.get("ADAFRUIT_IO_USERNAME")
 
-<h4>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, like this vvv, DO NOT git add the .env text file to GitHub.</h4>
+<h4>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env IN THE SAME FOLDER YOUR CODE IS IN to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, like this vvv, DO NOT git add the .env text file to GitHub.</h4>
 
     ADAFRUIT_IO_USERNAME = "your-username"
     ADAFRUIT_IO_KEY = "your-key"
