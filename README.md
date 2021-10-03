@@ -2,7 +2,6 @@
 
 <hr>
 
-<p>Reminders: </p>
 <p>&#128272; - Security Warning</p>
 <p>&#10071; - Important Information</p>
 
