@@ -36,7 +36,7 @@
 
 <h2>MasterMonitor GIF Display Script</h2>
 
-<p>Wanna make a cute GIF appear on your display? If so, this script has the exact code you're looking for!</p>
+<p>Wanna make a cute GIF appear on your display? If so, this MasterMonitor Script has the exact code you're looking for!</p>
 
 <p>You can change the below code if you want to make a GIF other than the Pary_Blob appear on your display.</p>
 
