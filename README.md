@@ -1,6 +1,6 @@
 <h1>RaspberryPi(Berry_Blob) Master-Scripts &#128013;</h1>
 
-<p>Warning Key: &#128272; - Security Warning and &#10071; - Important Information</p>
+<p>Warning Key: &#128272; - Security Warning   &#10071; - Important Information</p>
 
 <p>This is all my code for my enviroment monitoring RaspberryPi, named Berry_Blob &#128518;, feel free to explore around it! &#128270;</p>
 
