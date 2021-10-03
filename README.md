@@ -2,8 +2,12 @@
 
 <hr>
 
+<p>Reminders:</p>
+
 <p>&#128272; - Security Warning</p>
 <p>&#10071; - Important Information</p>
+
+<p>Please notify me if you notice any typos or any other kind of error, thanks. &#128516;</p>
 
 <hr>
 
