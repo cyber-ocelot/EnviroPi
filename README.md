@@ -10,7 +10,7 @@
 <p>os.envrion.get("ADAFRUIT_IO_USERNAME")</p>
 <p>os.environ.get("ADAFRUIT_IO_USERNAME")</p>
 
-<h4>&#10071; IMPORTANT: <p>If you share your code somewhere, make sure to keep ^^^, and create a .env text file to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables.</h4>
+<h4>&#9940; If you share your code somewhere, make sure to keep ^^^, and create a .env text file to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables.</h4>
 
 <p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help, you both are magical. &#129412;</p>
 
