@@ -21,7 +21,6 @@
     load_dotenv()
     os.envrion.get("ADAFRUIT_IO_USERNAME")
     os.environ.get("ADAFRUIT_IO_USERNAME")
-
 <h4>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, DO NOT git add the .env text file to GitHub.</h4>
 
 
