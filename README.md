@@ -2,8 +2,8 @@
 
 <p>Reminders:</p>
 
-<p>&#128272; - Security Warning</p>
-<p>&#10071; - Important Information</p>
+<h4>&#128272; - Security Warning</h4>
+<h4>&#10071; - Important Information</h4>
 
 <p>Please notify me if you notice any typos or any other kind of error, thanks. &#128516;</p>
 
@@ -13,7 +13,7 @@
 
 <p>Wanna see the data Berry_Blob gathered? If so, <a href="https://io.adafruit.com/Thuviksa/dashboards/weather-monitor">here</a> is my AdaFruitIO dashboard. &#128187;</p>
 
-<p>&#10071; Please contact me if you want to use my code.</p>
+<h4>&#10071; Please contact me if you want to use my code.</h4>
 
 <p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help, you both are magical. &#129412;</p>
 
@@ -33,12 +33,12 @@
     AdaFruitIO_Username = os.envrion.get("ADAFRUIT_IO_USERNAME")
     AdaFruitIO_Key = os.environ.get("ADAFRUIT_IO_USERNAME")
 
-<p>&#10071; You can get your key by clicking the My Key tab on the AdaFruitIO website.</p>
-
-<p>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env in the EXACT folder you code/notebook is in to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, here is what you would put vvv. DO NOT git add the .env text file to GitHub.</p>
+<h4>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env in the EXACT folder you code/notebook is in to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, here is what you would put vvv. DO NOT git add the .env text file to GitHub.</h4>
 
     ADAFRUIT_IO_USERNAME = "your-username"
     ADAFRUIT_IO_KEY = "your-key"
+
+<h4>&#10071; You can get your key by clicking the My Key tab on the AdaFruitIO website.</h4>
 
 <hr>
 
