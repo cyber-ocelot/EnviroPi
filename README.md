@@ -1,7 +1,5 @@
 <h1><a href= "https://github.com/ThuviksaM/Berry_Blob">Berry_Blob MasterMonitor Scripts &#128013;</a></h1>
 
-<hr>
-
 <p>Reminders:</p>
 
 <p>&#128272; - Security Warning</p>
