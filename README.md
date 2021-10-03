@@ -14,7 +14,7 @@
 
 
 
-<p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and (unless if you share your code somehwere) remove vvv (except for AdaFruitIO_Username =, and AdaFruitIO_Key =)</p>
+<p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and remove vvv (except for AdaFruitIO_Username, and AdaFruitIO_Key variables)</p>
 
     from dotenv import load_dotenv
     import os
