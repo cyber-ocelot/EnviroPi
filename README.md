@@ -11,7 +11,7 @@
 
 <p>Wanna see the data Berry_Blob gathered? If so, <a href="https://io.adafruit.com/Thuviksa/dashboards/weather-monitor">here</a> is my AdaFruitIO dashboard. &#128187;</p>
 
-<h4>&#10071; Please contact me if you want to use my code.</h4>
+<p>&#10071; Please contact me if you want to use my code.</p>
 
 <p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help, you both are magical. &#129412;</p>
 
@@ -23,7 +23,7 @@
 
 <p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and remove vvv (except for AdaFruitIO_Username, and AdaFruitIO_Key variables)</p>
 
-<h4>&#10071; You can get your key by clicking the My Key tab on the AdaFruitIO website.</h4>
+<p>&#10071; You can get your key by clicking the My Key tab on the AdaFruitIO website.</p>
 
     from dotenv import load_dotenv
     import os
@@ -33,7 +33,7 @@
     AdaFruitIO_Username = os.envrion.get("ADAFRUIT_IO_USERNAME")
     AdaFruitIO_Key = os.environ.get("ADAFRUIT_IO_USERNAME")
 
-<h4>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env IN THE SAME FOLDER YOUR CODE IS IN to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, like this vvv, DO NOT git add the .env text file to GitHub.</h4>
+<p>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env in the EXACT folder you code/notebook is in to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, here is what you would put vvv. DO NOT git add the .env text file to GitHub.</p>
 
     ADAFRUIT_IO_USERNAME = "your-username"
     ADAFRUIT_IO_KEY = "your-key"
@@ -50,10 +50,11 @@
 
     image_file = "party_blob.gif"
 
-<h4>&#10071; Make sure your GIF file is in the same exact folder your code is in.</h4>
+<h4>&#10071; Make sure your GIF file is in the same exact folder your code/notebook is in.</h4>
 
 <p>You can also edit or keep the print statements in this code vvv</p>
 
     image = Image.open(image_file)
     print("Party_Blob is SO cute!!!")
     print("Drawing GIF, Stop This Cell To Exit!")
+
