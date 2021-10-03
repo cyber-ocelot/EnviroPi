@@ -23,8 +23,6 @@
 
 <p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and remove vvv (except for AdaFruitIO_Username, and AdaFruitIO_Key variables)</p>
 
-<p>&#10071; You can get your key by clicking the My Key tab on the AdaFruitIO website.</p>
-
     from dotenv import load_dotenv
     import os
     
@@ -32,6 +30,8 @@
     
     AdaFruitIO_Username = os.envrion.get("ADAFRUIT_IO_USERNAME")
     AdaFruitIO_Key = os.environ.get("ADAFRUIT_IO_USERNAME")
+
+<p>&#10071; You can get your key by clicking the My Key tab on the AdaFruitIO website.</p>
 
 <p>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env in the EXACT folder you code/notebook is in to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, here is what you would put vvv. DO NOT git add the .env text file to GitHub.</p>
 
