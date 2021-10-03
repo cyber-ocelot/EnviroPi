@@ -2,7 +2,7 @@
 
 <p>Reminders:</p>
 
-<h4>&#128272; - Security Warning/Informtion</h4>
+<h4>&#128272; - Security Warning/Information</h4>
 <h4>&#10071; - Important Information/Warning</h4>
 
 <p>You will need a <a href= "https://www.raspberrypi.org/products/raspberry-pi-zero-w/">Raspberry Pi Zero W</a> or another <a href= "https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch">Raspberry Pi</a>, a Pimoroni <a href= "https://shop.pimoroni.com/products/enviro?variant=31155658489939">Enviro monitoring extention</a>, an external temperature sensor, a CCS811 sensor, and an <a href= "https://io.adafruit.com/">AdaFruitIO</a> account</p>
