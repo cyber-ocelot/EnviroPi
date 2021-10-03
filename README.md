@@ -16,11 +16,11 @@
 
 <p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and (unless if you share your code somehwere) remove vvv</p>
 
-    <h4>from dotenv import load_dotenv</h4>
-    <h4>import os</h4>
-    <h4>load_dotenv()</h4>
-    <h4>os.envrion.get("ADAFRUIT_IO_USERNAME")</h4>
-    <h4>os.environ.get("ADAFRUIT_IO_USERNAME")</h4>
+    from dotenv import load_dotenv
+    import os
+    load_dotenv()
+    os.envrion.get("ADAFRUIT_IO_USERNAME")
+    os.environ.get("ADAFRUIT_IO_USERNAME")
 
 <h4>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, DO NOT git add the .env text file to GitHub.</h4>
 
