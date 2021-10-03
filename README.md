@@ -16,7 +16,7 @@
 
 <h2>MasterMonitor Sensor Script</h2>
 
-<p>This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO.</p>
+<p>This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard blocks.</p>
 
 <p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and remove vvv (except for AdaFruitIO_Username, and AdaFruitIO_Key variables)</p>
 
@@ -36,7 +36,7 @@
 
 <h2>MasterMonitor GIF Display Script</h2>
 
-<p>Wanna make a cute GIF appear on your display? If so, this MasterMonitor Script has the exact code you're looking for!</p>
+<p>This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!</p>
 
 <p>You can change the below code if you want to make a GIF other than the Pary_Blob appear on your display.</p>
 
