@@ -2,8 +2,8 @@
 
 <p>Reminders:</p>
 
-<h4>&#128272; - Security Warning</h4>
-<h4>&#10071; - Important Information</h4>
+<h4>&#128272; - Security Warning/Informtion</h4>
+<h4>&#10071; - Important Information/Warning</h4>
 
 <p>Please notify me if you notice any typos or any other kind of error, thanks. &#128516;</p>
 
