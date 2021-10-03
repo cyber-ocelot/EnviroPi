@@ -1,4 +1,4 @@
-<h1>Berry_Blob MasterMonitor Scripts &#128013;</h1>
+<h1><a href= "https://github.com/ThuviksaM/Berry_Blob">Berry_Blob MasterMonitor Scripts &#128013;</a></h1>
 
 <hr>
 
@@ -21,7 +21,7 @@
 
 <hr>
 
-<h2>MasterMonitor Sensor Script</h2>
+<h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/main/MasterMonitorSensorScript.ipynb">MasterMonitor Sensor Script</a></h2>
 
 <p>This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.</p>
 
@@ -46,7 +46,7 @@
 
 
 
-<h2>MasterMonitor GIF Display Script</h2>
+<h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/main/MasterMonitorGIFDisplayScript.ipynb">MasterMonitor GIF Display Script</a></h2>
 
 <p>This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!</p>
 
