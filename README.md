@@ -46,7 +46,7 @@
 
 <p>This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!</p>
 
-<p>You can change the code below if you want to make a GIF other than the Pary_Blob appear on your display.</p>
+<p>You can change the code below if you want to make a GIF other than the Party_Blob appear on your display.</p>
 
     image_file = "party_blob.gif"
 
