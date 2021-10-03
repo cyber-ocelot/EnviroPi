@@ -1,10 +1,10 @@
 <h1>RaspberryPi(Berry_Blob) Master-Scripts &#128013;</h1>
 
-<p>Warning Key: &#128272; - Security Warning   &#10071; - Important Information</p>
+<p>Reminders: &#128272; - Security Warning   &#10071; - Important Information</p>
 
-<p>This is all my code for my enviroment monitoring RaspberryPi, named Berry_Blob &#128518;, feel free to explore around it! &#128270;</p>
+<p>This is all my code for my enviroment monitoring RaspberryPi, named Berry_Blob &#128518;, you're welcome to explore around it! &#128270;</p>
 
-<p><a href="https://io.adafruit.com/Thuviksa/dashboards/weather-monitor">Here</a> is my AdaFruitIO dashboard. &#128187;</p>
+<p>Wanna see the data Berry_Blob gathered? If so, <a href="https://io.adafruit.com/Thuviksa/dashboards/weather-monitor">here</a> is my AdaFruitIO dashboard. &#128187;</p>
 
 <p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and (unless if you share your code somehwere) remove vvv</p>
 
