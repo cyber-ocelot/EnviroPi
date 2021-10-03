@@ -1,4 +1,4 @@
-<h1>Berry_Blob Master-Scripts &#128013;</h1>
+<h1>Berry_Blob MasterMonitor Scripts &#128013;</h1>
 
 <p>Reminders: &#128272; - Security Warning   &#10071; - Important Information</p>
 
@@ -14,6 +14,8 @@
 
 
 
+<h2>MasterMonitor Sensor Script</h2>
+
 <p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and remove vvv (except for AdaFruitIO_Username, and AdaFruitIO_Key variables)</p>
 
     from dotenv import load_dotenv
@@ -26,6 +28,9 @@
 
 <h4>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, DO NOT git add the .env text file to GitHub.</h4>
 
+<hr>
 
 
+
+<h2>MasterMonitor Display Script</h2>
 
