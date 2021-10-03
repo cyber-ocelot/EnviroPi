@@ -6,6 +6,12 @@
 
 <p>Wanna see the data Berry_Blob gathered? If so, <a href="https://io.adafruit.com/Thuviksa/dashboards/weather-monitor">here</a> is my AdaFruitIO dashboard. &#128187;</p>
 
+<h4>&#10071; Please contact me if you want to use my code.</h4>
+
+<p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help, you both are magical. &#129412;</p>
+
+<hr>
+
 <p>Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and (unless if you share your code somehwere) remove vvv</p>
 
 <h4><a href="https://github.com/ThuviksaM/Berry_Blob-MasterMonitor-Scripts/blob/main/MasterMonitorSensorScript.ipynb">from dotenv import load_dotenv</a></h4>
@@ -16,8 +22,6 @@
 
 <h4>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, DO NOT git add the .env text file to GitHub.</h4>
 
-<p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help, you both are magical. &#129412;</p>
 
-<h4>&#10071; Please contact me if you want to use my code.</h4>
 
 
