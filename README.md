@@ -8,7 +8,7 @@
 
 <hr>
 
-<p>A few reminders:</p>
+<h2>A Few Reminders</h2>
 
 <h4>&#128272; - Security Warning/Information</h4>
 <h4>&#10071; - Important Information/Warning</h4>
@@ -16,6 +16,15 @@
 <p>You will need a <a href= "https://www.raspberrypi.org/products/raspberry-pi-zero-w/">Raspberry Pi Zero W</a> or another <a href= "https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch">Raspberry Pi</a>, a Pimoroni <a href= "https://shop.pimoroni.com/products/enviro?variant=31155658489939">Enviro Hat</a>, an external temperature sensor, a CCS811 sensor, and an <a href= "https://io.adafruit.com/">AdaFruitIO</a> account, if you have all of these materials, you're set. &#128077;</p>
 
 <h4>&#10071; Please notify me if you notice any typos or any other kind of error, or if you want to use any of my MasterMonitor Scripts (I know, they're awesome &#128526;), thanks, I appreciate it. &#128516;</h4>
+
+<hr>
+
+<h2>Wiring the Sensors to the Pi</h2>
+
+<p>Before you program anything you have to wire the sensor together...or nothing will work!</p>
+<p>The image below is the wiring diagram <a href="https://github.com/tproffen">Dr. Proffen</a> used to help me and the others in the #enviro-masterteam wire their sensors up!</p>
+
+<img src= "sensor-wiring-img.jpg" alt= "Wiring Diagram">
 
 <hr>
 
