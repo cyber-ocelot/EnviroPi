@@ -26,7 +26,7 @@
 
 <h4>&#10071; The intersecting lines (wires) are in the same row on the breadboard.</h4>
 
-<img src= "sensor-wiring-img.jpg" alt= "WiringDiagram" width="400" height="400">
+<img src= "sensor-wiring-img.jpg" alt= "WiringDiagram" width="400" height="300">
 
 <hr>
 
