@@ -4,8 +4,6 @@
 
 <p>Wanna see the data Berry_Blob gathered? If so, <a href="https://io.adafruit.com/Thuviksa/dashboards/weather-monitor">here</a> is my AdaFruitIO dashboard. &#128187;</p>
 
-<h4>&#10071; If you want to use any of my MasterMonitor Scripts (I know, they're awesome &#128526;), please notify me, thanks. &#128516;</h4>
-
 <p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help, you both are magical. &#129412;</p>
 
 <hr>
@@ -17,7 +15,7 @@
 
 <p>You will need a <a href= "https://www.raspberrypi.org/products/raspberry-pi-zero-w/">Raspberry Pi Zero W</a> or another <a href= "https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch">Raspberry Pi</a>, a Pimoroni <a href= "https://shop.pimoroni.com/products/enviro?variant=31155658489939">Enviro Hat</a>, an external temperature sensor, a CCS811 sensor, and an <a href= "https://io.adafruit.com/">AdaFruitIO</a> account, if you have all of these materials, you're set. &#128077;</p>
 
-<p>Please notify me if you notice any typos or any other kind of error, thanks, I appreciate it. &#128516;</p>
+<h4>&#10071; Please notify me if you notice any typos or any other kind of error, or if you want to use any of my MasterMonitor Scripts (I know, they're awesome &#128526;), thanks, I appreciate it. &#128516;</h4>
 
 <hr>
 
