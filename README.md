@@ -1,3 +1,5 @@
+<img src= "enviro-lifestyle-1_1024x1024.jpg" alt="EnviroPi">
+
 <h1><a href= "https://github.com/ThuviksaM/Berry_Blob">Berry_Blob MasterMonitor Scripts &#128013;</a></h1>
 
 <p>This repository has all my code for my enviroment monitoring RaspberryPi, named Berry_Blob &#128518;, you're welcome to explore around it! &#128270;</p>
@@ -26,8 +28,7 @@
 
 <h4>&#10071; The intersecting lines (wires) are in the same row on the breadboard.</h4>
 
-
-<img src= "sensor-wiring-img.jpg" alt= "Wiring Diagram" width="400" height="400">
+<img src= "sensor-wiring-img.jpg" alt= "WiringDiagram" width="400" height="400">
 
 <hr>
 
