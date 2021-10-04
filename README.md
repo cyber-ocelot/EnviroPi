@@ -4,7 +4,7 @@
 
 <p>Wanna see the data Berry_Blob gathered? If so, <a href="https://io.adafruit.com/Thuviksa/dashboards/weather-monitor">here</a> is my AdaFruitIO dashboard. &#128187;</p>
 
-<h4>&#10071; Please contact me if you want to use my code.</h4>
+<h4>&#10071; If you want to use any of my MasterMonitor Scripts (I know, they're awesome &#128526;), please notify me, thanks. &#128516;</h4>
 
 <p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help, you both are magical. &#129412;</p>
 
