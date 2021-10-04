@@ -1,5 +1,15 @@
 <h1><a href= "https://github.com/ThuviksaM/Berry_Blob">Berry_Blob MasterMonitor Scripts &#128013;</a></h1>
 
+<p>This is all my code for my enviroment monitoring RaspberryPi, named Berry_Blob &#128518;, you're welcome to explore around it! &#128270;</p>
+
+<p>Wanna see the data Berry_Blob gathered? If so, <a href="https://io.adafruit.com/Thuviksa/dashboards/weather-monitor">here</a> is my AdaFruitIO dashboard. &#128187;</p>
+
+<h4>&#10071; Please contact me if you want to use my code.</h4>
+
+<p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help, you both are magical. &#129412;</p>
+
+<hr>
+
 <p>Reminders:</p>
 
 <h4>&#128272; - Security Warning/Information</h4>
@@ -8,16 +18,6 @@
 <p>You will need a <a href= "https://www.raspberrypi.org/products/raspberry-pi-zero-w/">Raspberry Pi Zero W</a> or another <a href= "https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch">Raspberry Pi</a>, a Pimoroni <a href= "https://shop.pimoroni.com/products/enviro?variant=31155658489939">Enviro monitoring extention</a>, an external temperature sensor, a CCS811 sensor, and an <a href= "https://io.adafruit.com/">AdaFruitIO</a> account</p>
 
 <p>Please notify me if you notice any typos or any other kind of error, thanks. &#128516;</p>
-
-<hr>
-
-<p>This is all my code for my enviroment monitoring RaspberryPi, named Berry_Blob &#128518;, you're welcome to explore around it! &#128270;</p>
-
-<p>Wanna see the data Berry_Blob gathered? If so, <a href="https://io.adafruit.com/Thuviksa/dashboards/weather-monitor">here</a> is my AdaFruitIO dashboard. &#128187;</p>
-
-<h4>&#10071; Please contact me if you want to use my code.</h4>
-
-<p>Thank you, <a href="https://github.com/tproffen">Dr. Thomas Proffen</a> and Amelie Nagle for all the guidance and debugging help, you both are magical. &#129412;</p>
 
 <hr>
 
