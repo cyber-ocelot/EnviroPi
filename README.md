@@ -1,4 +1,4 @@
-<img src= "enviro-lifestyle-1_1024x1024.jpg" alt="EnviroPi">
+<img src= "enviro-lifestyle-1_1024x1024.jpg" alt="EnviroPi" width= "1280" height= "640">
 
 <h1><a href= "https://github.com/ThuviksaM/Berry_Blob">Berry_Blob MasterMonitor Scripts &#128013;</a></h1>
 
