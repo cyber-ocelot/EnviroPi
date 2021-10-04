@@ -25,7 +25,7 @@
 <p>The image below is the wiring diagram <a href="https://github.com/tproffen">Dr. Proffen</a> used to help me and the others in the #enviro-masterteam wire their sensors up!</p>
 <h4>&#10071; The intersecting wires are in the same row on the breadboard.</h4>
 
-<img src= "sensor-wiring-img.jpg" alt= "Wiring Diagram" width="600" height="500">
+<img src= "sensor-wiring-img.jpg" alt= "Wiring Diagram" width="400" height="400">
 
 <hr>
 
