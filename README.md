@@ -24,7 +24,7 @@
 <p>Before you program anything you have to wire the sensor together...or nothing will work!</p>
 <p>The image below is the wiring diagram <a href="https://github.com/tproffen">Dr. Proffen</a> used to help me and the others in the #enviro-masterteam wire their sensors up!</p>
 
-<img src= "sensor-wiring-img.jpg" alt= "Wiring Diagram">
+<img src= "sensor-wiring-img.jpg" alt= "Wiring Diagram" width="200" height="200">
 
 <hr>
 
