@@ -19,7 +19,7 @@
 
 <hr>
 
-<h2>Wiring the Sensors to the Pi</h2>
+<h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/main/sensor-wiring-img.jpg">Wiring the Sensors to the Pi</a></h2>
 
 <p>Before you program anything you have to wire the sensor together...or nothing will work!</p>
 <p>The image below is the wiring diagram <a href="https://github.com/tproffen">Dr. Proffen</a> used to help me and the others in the #enviro-masterteam wire their sensors up!</p>
