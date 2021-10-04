@@ -10,7 +10,7 @@
 
 <hr>
 
-<p>Reminders:</p>
+<p>A few reminders:</p>
 
 <h4>&#128272; - Security Warning/Information</h4>
 <h4>&#10071; - Important Information/Warning</h4>
