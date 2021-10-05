@@ -22,7 +22,7 @@
 <h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/main/sensor-wiring-img.jpg">Wiring the Sensors to the Pi</a></h2>
 
 <p>Before you program anything you have to wire the sensor together...or nothing will work!</p>
-<p>The image below is the wiring diagram <a href="https://github.com/tproffen">Dr. Proffen</a> used to help me and the others in the <a href= "https://www.orcsgirls.org/masterclass">#enviro-masterteam</a> wire their sensors up!</p>
+<p>The image below is the wiring diagram <a href="https://github.com/tproffen">Dr. Proffen</a> used to help me and the others in the <a href= "https://www.orcsgirls.org/masterclass">#Enviro-MasterTeam</a> wire their sensors up!</p>
 
 <h4>&#10071; The intersecting lines (wires) are in the same row on the breadboard.</h4>
 
