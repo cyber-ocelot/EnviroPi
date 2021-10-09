@@ -10,12 +10,12 @@
 
 <h2>A Few Reminders</h2>
 
-<h4>&#128272; - Security Warning/Information</h4>
-<h4>&#10071; - Important Information/Warning</h4>
+<p><b>&#128272; - Security Warning/Information</b></p>
+<p><b>&#10071; - Important Information/Warning</b></p>
 
 <p>You will need a <a href= "https://www.raspberrypi.org/products/raspberry-pi-zero-w/">Raspberry Pi Zero W</a> or another <a href= "https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch">Raspberry Pi</a>, a Pimoroni <a href= "https://shop.pimoroni.com/products/enviro?variant=31155658489939">Enviro Hat</a>, an external temperature sensor, a CCS811 sensor, a breadboard (<a href= "https://www.adafruit.com/product/64">ex.</a>), a cooling fan (<a href= "https://www.adafruit.com/product/3368">ex.</a>), and an <a href= "https://io.adafruit.com/">AdaFruitIO</a> account, if you have all of these materials, you're set. &#128077;</p>
 
-<h4>&#10071; Please notify me if you notice any typos or any other kind of error, or if you want to use any of my MasterMonitor Scripts (I know, they're awesome &#128526;), thanks, I appreciate it. &#128516;</h4>
+<p><b>&#10071; Please notify me if you notice any typos or any other kind of error, or if you want to use the code in any of my MasterMonitor Scripts (I know, they're awesome &#128526;), thanks, I appreciate it. &#128516;</b></p>
 
 <hr>
 
@@ -24,7 +24,7 @@
 <p>Before you program anything you have to wire the sensor together...or nothing will work!</p>
 <p>The image below is the wiring diagram <a href="https://github.com/tproffen">Dr. Proffen</a> used to help me and the others in the <a href= "https://www.orcsgirls.org/masterclass">#Enviro-MasterTeam</a> wire their sensors up!</p>
 
-<h4>&#10071; The intersecting lines (wires) are in the same row on the breadboard.</h4>
+<p><b>&#10071; The intersecting lines (wires) are in the same row on the breadboard.</b></p>
 
 <img src= "sensor-wiring-img.jpg" alt= "WiringDiagram" width="300" height="300">
 
@@ -44,11 +44,11 @@
     AdaFruitIO_Username = os.envrion.get("ADAFRUIT_IO_USERNAME")
     AdaFruitIO_Key = os.environ.get("ADAFRUIT_IO_USERNAME")
 
-<h4>&#128272; If you share your code somewhere, make sure to keep ^^^, and create a text file named .env in the EXACT folder you code/notebook is in to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, you might, also, need to dowload the dotenv module, here is what you would need to put in a terminal to do that vvv.</h4>
+<p>&#128272; <b>If you share your code somewhere, make sure to keep ^^^, and create a text file named .env in the EXACT folder you code/notebook is in to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, you might, also, need to dowload the dotenv module, here is what you would need to put in a terminal to do that vvv.</b></p>
 
     pip3 install python-dotenv
 
-<p>Here is what you would put in your .env text file vvv, of course replacing your-username and your-key with your actual username and key.</p>
+<p>&#128272; <b>Here is what you would put in your .env text file vvv, of course replacing your-username and your-key with your actual username and key.</b></p>
 
     ADAFRUIT_IO_USERNAME = "your-username"
     ADAFRUIT_IO_KEY = "your-key"
@@ -69,7 +69,7 @@
 
     image_file = "party_blob.gif"
 
-<h4>&#10071; Make sure your GIF file is in the same exact folder your code/notebook is in.</h4>
+<p><b>&#10071; Make sure your GIF file is in the same exact folder your code/notebook is in.</b></p>
 
 <p>You can also edit or keep the print statements in this code vvv</p>
 
