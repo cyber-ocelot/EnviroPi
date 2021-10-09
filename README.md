@@ -81,4 +81,4 @@
 
 <p>Try my teammates' enviroment monitoring code, they're awesome! &#128526;</p>
 <p>- <a href= https://github.com/apzzd/EnviroPi>Ada's code</a></p>
-<p>- <a href= https://github.com/tproffen/ORCSPiCamp>Dr.Proffen's code</a> - the actual master-code</p>
+<p>- <a href= https://github.com/tproffen/ORCSPiCamp>Dr. Proffen's code</a> - the actual master-code</p>
