@@ -73,3 +73,8 @@
     print("Party_Blob is SO cute!!!")
     print("Drawing GIF, Stop This Cell To Exit!")
 
+<hr>
+
+<p>Try my teammates enviroment monitoring code, they're awesome! &#128526;</p>
+<p>- <a href= https://github.com/apzzd/EnviroPi>Ada's code</a></p>
+<p>- <a>Dr.Proffen's code</a> - the actual master-code</p>
