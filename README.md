@@ -55,7 +55,9 @@
 
 <h4>&#128272; DO NOT git add the .env text file to GitHub.</h4>
 
-<h4>&#10071; You can get your key by clicking the My Key tab on the AdaFruitIO website.</h4>
+<p>&#10071; <b>You can get your key by clicking the My Key tab on the AdaFruitIO website.</b></p>
+
+<p>You can also change the below code to whatever long break you want your Pi to take before sending data to the AdaFruitIO Cloud.</p>
 
 <hr>
 
