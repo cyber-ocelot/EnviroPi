@@ -74,10 +74,6 @@
 
 <p>You have to also change the feed-name placeholders in the below variables to your AdaFruitIO feed names.</p>
 
-<p>&#10071; <b>Make sure you make a seperate feed for each of the variables.</b></p>
-
-<p>&#10071; <b>The intTempCfeed and intTempFfeed variables are optional.</b></p>
-
     soundFeed = aio.feeds("feed-name")
     luxFeed = aio.feeds("feed-name")
     intTempCfeed = aio.feeds("feed-name")
@@ -89,7 +85,7 @@
     tvocsFeed = aio.feeds("feed-name")
     co2Feed = aio.feeds("feed-name")
 
-<p>&#10071; <b>Since the intTempCfeed and intTempFfeed variables are optional,</b></p>
+<p>&#10071; <b>Make sure you make a seperate feed for each of the variables, and the intTempCfeed and intTempFfeed variables are optional, so you can delete them, they just show the actual temperature of your Pi, and since the intTempCfeed and intTempFfeed variables are optional,</b></p>
     
     InternalC = Celcius - External
     InternalF = Fahrenheit - External2
@@ -129,6 +125,8 @@
     aio.send_data(pressFeed.key, Pressure, metadata)
     time_elapsed = time.time() - time_calculation
 
+<p><b>are optional, too.</b></p>
+
 <hr>
 
 <h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/main/MasterMonitorGIFDisplayScript.ipynb">MasterMonitor GIF Display Script</a></h2>
@@ -139,7 +137,7 @@
 
     image_file = "party_blob.gif"
 
-<p><b>&#10071; Make sure your GIF file is in the same exact folder your code/notebook is in.</b></p>
+<p><b>&#10071; Make sure your GIF file is in the SAME folder your code/notebook is in.</b></p>
 
 <p>You can also edit or keep the print statements in this code vvv.</p>
 
@@ -149,7 +147,7 @@
 
 <hr>
 
-<p>Try my teammates' enviroment monitoring code, they're awesome! &#128526;</p>
+<p>Try my teammates' enviroment monitoring code, they and their makers are awesome! &#128526;</p>
 <p>- <a href= https://github.com/apzzd/EnviroPi>Ada - apzzd</a></p>
 <p>- <a href= https://github.com/JaVaLemn/EnviroPi>Katie - JaVaLemn</a></p>
 <p>- <a href= https://github.com/tproffen/ORCSPiCamp>Dr. Proffen - tproffen</a> -- the actual master-code</p>
