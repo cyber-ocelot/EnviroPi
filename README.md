@@ -15,7 +15,7 @@
 
 <p>You will need a <a href= "https://www.raspberrypi.org/products/raspberry-pi-zero-w/">Raspberry Pi Zero W</a> or another <a href= "https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch">Raspberry Pi</a>, a Pimoroni <a href= "https://shop.pimoroni.com/products/enviro?variant=31155658489939">Enviro Hat</a>, an external temperature sensor, a CCS811 sensor, a breadboard (<a href= "https://www.adafruit.com/product/64">ex.</a>), a cooling fan (<a href= "https://www.adafruit.com/product/3368">ex.</a>), and an <a href= "https://io.adafruit.com/">AdaFruitIO</a> account, if you have all of these materials, you're set &#128077;, though you also have to connect your Pi to the internet your computer is on, after you get your Pi.</p>
 
-<p><b>&#10071; Please notify me if you notice any typos or any other kind of error, or if you want to use the code in any of my MasterMonitor Scripts (I know, they're awesome &#128526;), thanks, I appreciate it. &#128516;</b></p>
+<p><b>&#10071; Please notify me if you notice any typos or any other kind of error (you may also create a Pull Request or an Issue), or if you want to use the code in any of my MasterMonitor Scripts (I know, they're awesome &#128526;), thanks, I appreciate it. &#128516;</b></p>
 
 <hr>
 
@@ -48,7 +48,7 @@
 
     pip3 install python-dotenv
 
-<p>&#128272; <b>Here is what you would put in your .env text file , of course replacing your-username and your-key with your actual username and key vvv.</b></p>
+<p>&#128272; <b>Here is what you would put in your .env text file, of course, replacing your-username and your-key with your actual username and key vvv.</b></p>
 
     ADAFRUIT_IO_USERNAME = "your-username"
     ADAFRUIT_IO_KEY = "your-key"
@@ -57,11 +57,79 @@
 
 <p>&#10071; <b>You can get your key by clicking the My Key tab on the AdaFruitIO website.</b></p>
 
-<p>You can also change the below code to whatever long break you want your Pi to take before sending data to the AdaFruitIO Cloud.</p>
+<p>You can also change the the if time placeholder in the below code to however long of a break you want your Pi to take before sending data to the AdaFruitIO Cloud.</p>
+
+    if time_elapsed == time:
+    time_calculation = time.time()
+    aio.send_data(co2Feed.key, CO2, metadata)
+    aio.send_data(tvocsFeed.key, TVOC, metadata)
+    aio.send_data(soundFeed.key, Amps[0], metadata)
+    aio.send_data(luxFeed.key, Light, metadata)
+    aio.send_data(intTempCfeed.key, InternalC, metadata)
+    aio.send_data(intTempFfeed.key, InternalF, metadata)
+    aio.send_data(extemp2Feed.key, External2, metadata)
+    aio.send_data(extempFeed.key, External, metadata)
+    aio.send_data(humidFeed.key, Humidity, metadata)
+    aio.send_data(pressFeed.key, Pressure, metadata)
+
+<p>You have to also change the feed-name placeholders in the below variables to your AdaFruitIO feed names.</p>
+
+<p>&#10071; <b>Make sure you make a seperate feed for each of the variables.</b></p>
+
+<p>&#10071; <b>The intTempCfeed and intTempFfeed variables are optional.</b></p>
+
+    soundFeed = aio.feeds("feed-name")
+    luxFeed = aio.feeds("feed-name")
+    intTempCfeed = aio.feeds("feed-name")
+    intTempFfeed = aio.feeds("feed-name")
+    extemp2Feed = aio.feeds("feed-name")
+    extempFeed = aio.feeds("feed-name")
+    humidFeed = aio.feeds("feed-name")
+    pressFeed = aio.feeds("feed-name")
+    tvocsFeed = aio.feeds("feed-name")
+    co2Feed = aio.feeds("feed-name")
+
+<p>&#10071; <b>Since the intTempCfeed and intTempFfeed variables are optional,</b></p>
+    
+    InternalC = Celcius - External
+    InternalF = Fahrenheit - External2
+
+<p><b>in</b></p>
+
+    Amps = noise.get_amplitudes_at_frequency_ranges(range)
+    Light = ltr559.get_lux()
+    External = readTemp()
+    External2 = External * 1.8 + 32
+    Celcius = bme280.get_temperature()
+    Fahrenheit = Celcius * 1.8 + 32
+    InternalC = Celcius - External
+    InternalF = Fahrenheit - External2
+    Humidity = bme280.get_humidity()
+    Pressure = bme280.get_pressure()
+    CO2 = ccs.eco2
+    TVOC = ccs.tvoc
+
+<p><b>and</b></p>
+
+    aio.send_data(intTempCfeed.key, InternalC, metadata)
+    aio.send_data(intTempFfeed.key, InternalF, metadata)
+
+<p><b>in</b></p>
+
+    time_calculation = time.time()
+    aio.send_data(co2Feed.key, CO2, metadata)
+    aio.send_data(tvocsFeed.key, TVOC, metadata)
+    aio.send_data(soundFeed.key, Amps[0], metadata)
+    aio.send_data(luxFeed.key, Light, metadata)
+    aio.send_data(intTempCfeed.key, InternalC, metadata)
+    aio.send_data(intTempFfeed.key, InternalF, metadata)
+    aio.send_data(extemp2Feed.key, External2, metadata)
+    aio.send_data(extempFeed.key, External, metadata)
+    aio.send_data(humidFeed.key, Humidity, metadata)
+    aio.send_data(pressFeed.key, Pressure, metadata)
+    time_elapsed = time.time() - time_calculation
 
 <hr>
-
-
 
 <h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/main/MasterMonitorGIFDisplayScript.ipynb">MasterMonitor GIF Display Script</a></h2>
 
@@ -82,5 +150,6 @@
 <hr>
 
 <p>Try my teammates' enviroment monitoring code, they're awesome! &#128526;</p>
-<p>- <a href= https://github.com/apzzd/EnviroPi>Ada's code</a></p>
-<p>- <a href= https://github.com/tproffen/ORCSPiCamp>Dr. Proffen's code</a> - the actual master-code</p>
+<p>- <a href= https://github.com/apzzd/EnviroPi>Ada - apzzd</a></p>
+<p>- <a href= https://github.com/JaVaLemn/EnviroPi>Katie - JaVaLemn</a></p>
+<p>- <a href= https://github.com/tproffen/ORCSPiCamp>Dr. Proffen - tproffen</a> -- the actual master-code</p>
