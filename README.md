@@ -148,6 +148,6 @@
 <hr>
 
 <p>Try my teammates' enviroment monitoring code, they and their makers are awesome! &#128526;</p>
-<p>- <a href= https://github.com/apzzd/EnviroPi>Ada - apzzd</a></p>
-<p>- <a href= https://github.com/JaVaLemn/EnviroPi>Katie - JaVaLemn</a></p>
-<p>- <a href= https://github.com/tproffen/ORCSPiCamp>Dr. Proffen - tproffen</a> -- the actual master-code</p>
+<p>- <a href= https://github.com/apzzd/EnviroPi>(apzzd) Ada</a>'s code</p>
+<p>- <a href= https://github.com/JaVaLemn/EnviroPi>(JaVaLemn) Katie</a>'s code</p>
+<p>- <a href= https://github.com/tproffen/ORCSPiCamp>(tproffen) Dr. Proffen</a>'s code -- the actual master-code</p>
