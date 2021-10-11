@@ -53,7 +53,7 @@
     ADAFRUIT_IO_USERNAME = "your-username"
     ADAFRUIT_IO_KEY = "your-key"
 
-❗** DO NOT `git add` the .env text file to GitHub.**
+❗ **DO NOT `git add` the .env text file to GitHub.**
 
 <p>&#10071; <b>You can get your key by clicking the My Key tab on the AdaFruitIO website.</b></p>
 
