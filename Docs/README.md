@@ -147,7 +147,7 @@
 
 <hr>
 
-<p>Try my teammates' enviroment monitoring code, they and their makers are awesome! &#128526;</p>
+<p>Check out my teammates' enviroment monitoring and other super-cool code, they're awesome! &#128526;</p>
 <p>+ <a href= "https://github.com/apzzd/EnviroPi">github.com/apzzd/EnviroPi</a> - <a href= "https://github.com/apzzd">Ada's</a> code</p>
 <p>+ <a href= "https://github.com/JaVaLemn/EnviroPi">github.com/JaVaLemn/EnviroPi</a> - <a href= "https://github.com/JaVaLemn">Katie's</a> code</p>
 <p>+ <a href= "https://github.com/tproffen/ORCSPiCamp">github.com/tproffen/ORCSPiCamp</a> - <a href= "https://github.com/tproffen">Dr. Proffen's</a> code -- the actual master-code</p>
