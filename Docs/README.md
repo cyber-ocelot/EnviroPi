@@ -19,7 +19,7 @@
 
 <hr>
 
-<h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/main/sensor-wiring-img.jpg">Wiring the Sensors to the Pi</a></h2>
+<h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/master/Images/sensor-wiring-img.jpg">Wiring the Sensors to the Pi</a></h2>
 
 <p>Before you program anything you have to wire the sensor together...or nothing will work!</p>
 <p>The image below is the wiring diagram <a href="https://github.com/tproffen">Dr. Proffen</a> used to help me and the others in the <a href= "https://www.orcsgirls.org/masterclass">#Enviro-MasterTeam</a> wire their sensors up!</p>
@@ -30,7 +30,7 @@
 
 <hr>
 
-<h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/main/MasterMonitorSensorScript.ipynb">MasterMonitor Sensor Script</a></h2>
+<h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/MasterMonitorSensorScript.ipynb">MasterMonitor Sensor Script</a></h2>
 
 <p>This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.</p>
 
@@ -129,7 +129,7 @@
 
 <hr>
 
-<h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/main/MasterMonitorGIFDisplayScript.ipynb">MasterMonitor GIF Display Script</a></h2>
+<h2><a href= "https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/MasterMonitorGIFDisplayScript.ipynb">MasterMonitor GIF Display Script</a></h2>
 
 <p>This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!</p>
 
