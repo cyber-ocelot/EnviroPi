@@ -133,7 +133,7 @@
 
 <p>This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!</p>
 
-<p>You can change the code below if you want to make a GIF other than the Party_Blob appear on your display.</p>
+<p>You can change the code below if you want to make a GIF other than the <a href= "https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/part_blob.gif">Party_Blob</a> appear on your display.</p>
 
     image_file = "party_blob.gif"
 
