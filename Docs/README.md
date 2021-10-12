@@ -1,4 +1,4 @@
-#[Berry_Blob MasterMonitor Scripts](https://github.com/ThuviksaM/Berry_Blob) 🐍
+# [Berry_Blob MasterMonitor Scripts](https://github.com/ThuviksaM/Berry_Blob) 🐍
 
 This repository has all my code for my enviroment monitoring RaspberryPi, named Berry_Blob 😆, you're welcome to explore around it! 🔎
 
@@ -8,7 +8,7 @@ Thank you so much, [Dr. Thomas Proffen](https://github.com/tproffen) and Amelie 
 
 <hr>
 
-##A Few Reminders
+## A Few Reminders
 
 🔐 **- Security Warning/Information**
 ❗ **- Important Information/Warning**
@@ -19,7 +19,7 @@ You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspb
 
 <hr>
 
-##[Wiring the Sensors to the Pi](https://github.com/ThuviksaM/Berry_Blob/blob/master/Images/sensor-wiring-img.jpg)
+## [Wiring the Sensors to the Pi](https://github.com/ThuviksaM/Berry_Blob/blob/master/Images/sensor-wiring-img.jpg)
 
 Before you program anything you have to wire the sensor together...or nothing will work!
 The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen) used to help me and the others in the [#Enviro-MasterTeam](https://www.orcsgirls.org/masterclass) wire their sensors up!
@@ -30,7 +30,7 @@ The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen)
 
 <hr>
 
-##[MasterMonitor Sensor Script](https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/MasterMonitorSensorScript.ipynb)
+## [MasterMonitor Sensor Script](https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/MasterMonitorSensorScript.ipynb)
 
 This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.
 
@@ -131,7 +131,7 @@ are optional, too.
 
 <hr>
 
-##[MasterMonitor GIF Display Script](https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/MasterMonitorGIFDisplayScript.ipynb)
+## [MasterMonitor GIF Display Script](https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/MasterMonitorGIFDisplayScript.ipynb)
 
 This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!
 
