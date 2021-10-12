@@ -136,16 +136,16 @@ are optional, too.
 This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!
 
 You can change the code below if you want to make a GIF other than the [Party_Blob](https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/part_blob.gif) appear on your display.
-```
+```python
 image_file = "party_blob.gif"
 ```
 ❗ **Make sure your GIF file is in the SAME folder your code/notebook is in.**
 
 You can also edit or keep the print statements in this code vvv.
-```
-    image = Image.open(image_file)
-    print("Party_Blob is SO cute!!!")
-    print("Drawing GIF, Stop This Cell To Exit!")
+```python
+image = Image.open(image_file)
+print("Party_Blob is SO cute!!!")
+print("Drawing GIF, Stop This Cell To Exit!")
 ```
 
 <hr>
