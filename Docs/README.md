@@ -44,20 +44,20 @@ load_dotenv()
 AdaFruitIO_Username = os.envrion.get("ADAFRUIT_IO_USERNAME")
 AdaFruitIO_Key = os.environ.get("ADAFRUIT_IO_USERNAME")
 ```
-🔐 ***If you share your code somewhere, make sure to keep ^^^, and create a text file named .env in the EXACT folder you code/notebook is in to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, you might, also, need to dowload the dotenv module, here is what you would need to put in a terminal to do that vvv.***
+🔐 ***If you share your code somewhere, make sure to keep ^^^, and create a text file named `.env` in the EXACT folder you code/notebook is in to keep your `ADAFRUIT_IO_USERNAME` and `ADAFRUIT_IO_KEY` variables, you might, also, need to dowload the `dotenv` module, here is what you would need to put in a terminal to do that. vvv***
 ```linux
 pip3 install python-dotenv
 ```
-🔐 ***Here is what you would put in your .env text file, of course, replacing your-username and your-key with your actual username and key vvv.***
+🔐 ***Here is what you would put in your `.env` text file, of course, replacing `your-username` and `your-key` with your actual username and key. vvv***
 ```python
 ADAFRUIT_IO_USERNAME = "your-username"
 ADAFRUIT_IO_KEY = "your-key"
 ```
-🔐 ***DO NOT `git add` the .env text file to GitHub.***
+🔐 ***DO NOT `git add` the `.env` text file to GitHub.***
 
-❗ ***You can get your key by clicking the My Key tab on the AdaFruitIO website.***
+❗ ***You can get your key by clicking the 'My Key' tab on the AdaFruitIO website.***
 
-You can also change the the if time placeholder in the below code to however long of a break you want your Pi to take before sending data to the AdaFruitIO Cloud.
+You can also change the `time` placeholder in the below code to however long of a break you want your Pi to take before sending data to the AdaFruitIO Cloud.
 ```python
 if time_elapsed == time:
     time_calculation = time.time()
@@ -72,7 +72,7 @@ if time_elapsed == time:
     aio.send_data(humidFeed.key, Humidity, metadata)
     aio.send_data(pressFeed.key, Pressure, metadata)
 ```
-You have to also change the feed-name placeholders in the below variables to your AdaFruitIO feed names.
+You have to also change the `feed-name` placeholders in the below variables to your AdaFruitIO feed names.
 ```python
 soundFeed = aio.feeds("feed-name")
 luxFeed = aio.feeds("feed-name")
@@ -87,7 +87,7 @@ co2Feed = aio.feeds("feed-name")
 ```
 ❗ ***Make sure you make a seperate feed for each of the variables.***
 
-`intTempCfeed` and `intTempFfeed` variables are optional, so you can delete them, they just show the actual temperature of your Pi, and since the intTempCfeed and intTempFfeed variables are optional,
+`intTempCfeed` and `intTempFfeed` variables are optional, so you can delete them, they just show the actual temperature of your Pi, and since the `intTempCfeed` and `intTempFfeed` variables are optional,
 ```python   
 InternalC = Celcius - External
 InternalF = Fahrenheit - External2
@@ -108,7 +108,7 @@ CO2 = ccs.eco2
 TVOC = ccs.tvoc
 ```
 and
-```
+```python
 aio.send_data(intTempCfeed.key, InternalC, metadata)
 aio.send_data(intTempFfeed.key, InternalF, metadata)
 ```
