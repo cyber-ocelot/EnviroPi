@@ -10,12 +10,12 @@ Thank you so much, [Dr. Thomas Proffen](https://github.com/tproffen) and Amelie 
 
 ## A Few Reminders
 
-🔐 **- Security Warning/Information**
-❗ **- Important Information/Warning**
+🔐 ***- Security Warning/Information***
+❗ ***- Important Information/Warning***
 
 You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) or another [Raspberry Pi](https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch), a Pimoroni [Enviro Hat](https://shop.pimoroni.com/products/enviro?variant=31155658489939), an external temperature sensor, a CCS811 sensor, a breadboard ([example](https://www.adafruit.com/product/64)), a cooling fan ([example](https://www.adafruit.com/product/3368)), and an [AdaFruit IO](https://io.adafruit.com/) account, if you have all of these materials, you're set 👍, though you also have to connect your Pi to the internet your computer is on, after you get your Pi.
 
-🔐 **Please notify me if you notice any typos or any other kind of error (you may also [contribute]()), or if you want to use the code in any of my MasterMonitor Scripts (I know, they're awesome 😎), thanks, I appreciate it. 😄**
+🔐 ***Please notify me if you notice any typos or any other kind of error (you may also [contribute]()), or if you want to use the code in any of my MasterMonitor Scripts (I know, they're awesome 😎), thanks, I appreciate it. 😄***
 
 <hr>
 
@@ -24,7 +24,7 @@ You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspb
 Before you program anything you have to wire the sensor together...or nothing will work!
 The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen) used to help me and the others in the [#Enviro-MasterTeam](https://www.orcsgirls.org/masterclass) wire their sensors up!
 
-❗ **The intersecting lines (wires) are in the same row on the breadboard.**
+❗ ***The intersecting lines (wires) are in the same row on the breadboard.***
 
 ![WiringDiagram](../Images/sensor-wiring-img.jpg)
 
@@ -44,18 +44,18 @@ load_dotenv()
 AdaFruitIO_Username = os.envrion.get("ADAFRUIT_IO_USERNAME")
 AdaFruitIO_Key = os.environ.get("ADAFRUIT_IO_USERNAME")
 ```
-🔐 **If you share your code somewhere, make sure to keep ^^^, and create a text file named .env in the EXACT folder you code/notebook is in to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, you might, also, need to dowload the dotenv module, here is what you would need to put in a terminal to do that vvv.**
+🔐 ***If you share your code somewhere, make sure to keep ^^^, and create a text file named .env in the EXACT folder you code/notebook is in to keep your ADAFRUIT_IO_USERNAME and ADAFRUIT_IO_KEY variables, you might, also, need to dowload the dotenv module, here is what you would need to put in a terminal to do that vvv.***
 ```
 pip3 install python-dotenv
 ```
-🔐 **Here is what you would put in your .env text file, of course, replacing your-username and your-key with your actual username and key vvv.**
+🔐 ***Here is what you would put in your .env text file, of course, replacing your-username and your-key with your actual username and key vvv.***
 ```python
 ADAFRUIT_IO_USERNAME = "your-username"
 ADAFRUIT_IO_KEY = "your-key"
 ```
-❗ **DO NOT `git add` the .env text file to GitHub.**
+🔐 ***DO NOT `git add` the .env text file to GitHub.***
 
-❗ **You can get your key by clicking the My Key tab on the AdaFruitIO website.**
+❗ ***You can get your key by clicking the My Key tab on the AdaFruitIO website.***
 
 You can also change the the if time placeholder in the below code to however long of a break you want your Pi to take before sending data to the AdaFruitIO Cloud.
 ```python
@@ -85,7 +85,7 @@ pressFeed = aio.feeds("feed-name")
 tvocsFeed = aio.feeds("feed-name")
 co2Feed = aio.feeds("feed-name")
 ```
-❗ **Make sure you make a seperate feed for each of the variables.**
+❗ ***Make sure you make a seperate feed for each of the variables.***
 
 `intTempCfeed` and `intTempFfeed` variables are optional, so you can delete them, they just show the actual temperature of your Pi, and since the intTempCfeed and intTempFfeed variables are optional,
 ```python   
@@ -139,7 +139,7 @@ You can change the code below if you want to make a GIF other than the [Party_Bl
 ```python
 image_file = "party_blob.gif"
 ```
-❗ **Make sure your GIF file is in the SAME folder your code/notebook is in.**
+❗ ***Make sure your GIF file is in the SAME folder your code/notebook is in.***
 
 You can also edit or keep the print statements in this code vvv.
 ```python
