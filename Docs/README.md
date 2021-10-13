@@ -18,7 +18,7 @@ You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspb
 
 <hr>
 
-## [Wiring the Sensors to the Pi](https://github.com/ThuviksaM/Berry_Blob/blob/master/Images/sensor-wiring-img.jpg)
+## [Wiring the Sensors to the Pi](../Images/sensor-wiring-img.jpg)
 
 Before you program anything you have to wire the sensors up...or nothing will work!
 The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen) used to help me and the others in the [#Enviro-MasterTeam](https://www.orcsgirls.org/masterclass) wire their sensors up!
