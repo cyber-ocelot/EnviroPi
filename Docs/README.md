@@ -29,7 +29,7 @@ The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen)
 
 <hr>
 
-## [MasterMonitor Sensor Script](https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/MasterMonitorSensorScript.ipynb)
+## [MasterMonitor Sensor Script](../JupyterNotebooks/MasterMonitorSensorScript.ipynb)
 
 This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.
 
@@ -130,11 +130,11 @@ are optional, too.
 
 <hr>
 
-## [MasterMonitor GIF Display Script](https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/MasterMonitorGIFDisplayScript.ipynb)
+## [MasterMonitor GIF Display Script](../JupyterNotebooks/MasterMonitorGIFDisplayScript.ipynb)
 
 This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!
 
-You can change the code below if you want to make a GIF other than the [Party_Blob](https://github.com/ThuviksaM/Berry_Blob/blob/master/JupyterNotebooks/part_blob.gif) appear on your display.
+You can change the code below if you want to make a GIF other than the [Party_Blob](../JupyterNotebooks/part_blob.gif) appear on your display.
 ```python
 image_file = "party_blob.gif"
 ```
