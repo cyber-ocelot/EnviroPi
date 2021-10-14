@@ -43,7 +43,7 @@ load_dotenv()
 AdaFruitIO_Username = os.envrion.get("ADAFRUIT_IO_USERNAME")
 AdaFruitIO_Key = os.environ.get("ADAFRUIT_IO_USERNAME")
 ```
-🔐 ***If you share your code somewhere, make sure to keep ^^^, and create a text file named `.env` in the EXACT folder you code/notebook is in to keep your `ADAFRUIT_IO_USERNAME` and `ADAFRUIT_IO_KEY` variables, you might, also, need to dowload the `dotenv` module, here is what you would need to put in a terminal to do that. vvv***
+🔐 ***If you share your code somewhere, make sure to keep ^^^, and create a text file named `.env` in the EXACT folder you code/notebook is in to keep your `ADAFRUIT_IO_USERNAME` and `ADAFRUIT_IO_KEY` variables, you might, also, need to dowload the `dotenv` module, here is what you would need to put in a terminal to do that. vvv f If, for some reason, you don't have access to a terminal, you would add a `!` in front of vvv***
 ```linux
 pip3 install python-dotenv
 ```
