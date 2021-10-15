@@ -14,7 +14,7 @@ Thank you so much, [Dr. Thomas Proffen](https://github.com/tproffen) and Amelie 
 
 You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) or another [Raspberry Pi](https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch), a Pimoroni [Enviro Hat](https://shop.pimoroni.com/products/enviro?variant=31155658489939), an external temperature sensor, a CCS811 sensor, a breadboard ([example](https://www.adafruit.com/product/64)), a cooling fan ([example](https://www.adafruit.com/product/3368)), and an [AdaFruit IO](https://io.adafruit.com/) account, if you have all of these materials, you're set 👍, though you also have to connect your Pi to the internet your computer is on, after you get your Pi.
 
-🔐 ***Please notify me if you notice any typos or any other kind of error (you may also [contribute](CONTRIBUTING.md)), or if you want to use the code in any of my MasterMonitor Scripts - and also take a look at this repository's [license](https://github.com/ThuviksaM/Berry_Blob/blob/master/Docs/LICENSE.md) - (I know, they're awesome 😎), thanks, I appreciate it. 😄***
+🔐 ***Please notify me if you notice any typos or any other kind of error (you may also [contribute](CONTRIBUTING.md)), or if you want to use the code in any of my MasterMonitor Scripts (I know, they're awesome 😎) - also take a look at this repository's [license](https://github.com/ThuviksaM/Berry_Blob/blob/master/Docs/LICENSE.md) - , thanks, I appreciate it. 😄***
 
 <hr>
 
