@@ -152,4 +152,4 @@ print("Drawing GIF, Stop This Cell To Exit!")
 Check out my teammates' enviroment monitoring and other super-cool code, they're awesome! 😎
 + [github.com/apzzd/EnviroPi](https://github.com/apzzd/EnviroPi) - [Ada's](https://github.com/apzzd) code
 + [github.com/JaVaLemn/EnviroPi](https://github.com/JaVaLemn/EnviroPi) - [Katie's](https://github.com/JaVaLemn) code
-+ [github.com/tproffen/ORCSPiCamp](https://github.com/tproffen/ORCSPiCamp) - [Dr. Proffen's](https://github.com/tproffen) code -- the actual master-code</p>
++ [github.com/tproffen/ORCSPiCamp](https://github.com/tproffen/AirMonitoringEnviro) - [Dr. Proffen's](https://github.com/tproffen) code -- the actual master-code</p>
