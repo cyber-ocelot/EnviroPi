@@ -33,7 +33,7 @@ The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen)
 
 This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.
 
-<hr width= "930">
+<hr width= "600">
 
 ### AdaFruit IO
 
@@ -60,7 +60,7 @@ ADAFRUIT_IO_KEY = "your-key"
 
 ❗ ***You can get your key by clicking the 'My Key' tab on the AdaFruitIO website.***
 
-<hr width= "930">
+<hr width= "600">
 
 ### Google Sheets
 
@@ -75,7 +75,7 @@ ADAFRUIT_IO_KEY = "your-key"
 sheet_name = "enviro-pi_log"
 ```
 
-<hr width= "930">
+<hr width= "600">
 
 ### Main Code
 
