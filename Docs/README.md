@@ -33,7 +33,7 @@ The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen)
 
 This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.
 
-<hr width= "10">
+<hr width= "10" border-width= 3px>
 
 ### AdaFruit IO
 
@@ -77,7 +77,7 @@ sheet_name = "enviro-pi_log"
 
 ### Main Code
 
-You can also change the `time` placeholder in the below code to however long of a break you want your Pi to take before sending data to the AdaFruitIO Cloud.
+You can change the `time` placeholder in the below code to however long of a break you want your Pi to take before sending data to the AdaFruitIO Cloud.
 ```python
 if time_elapsed == time:
     time_calculation = time.time()
