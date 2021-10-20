@@ -25,7 +25,7 @@ The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen)
 
 ❗ ***The intersecting lines (wires) are in the same row on the breadboard.***
 
-<img src= "../Images/sensor-wiring-img.jpg" alt= "wiring-diagram" width="300" height="300">
+<img type= "image/jpg" src= "../Images/sensor-wiring-img.jpg" alt= "wiring-diagram" width="300" height="300">
 
 <hr>
 
