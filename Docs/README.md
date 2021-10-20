@@ -12,7 +12,7 @@ Thank you so much, [Dr. Thomas Proffen](https://github.com/tproffen) and Amelie 
 🔐 ***- Security Warning/Information***
 ❗ ***- Important Information/Warning***
 
-You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) or another [Raspberry Pi](https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch), a Pimoroni [Enviro Hat](https://shop.pimoroni.com/products/enviro?variant=31155658489939), an external temperature sensor, a CCS811 sensor, a breadboard ([example](https://www.adafruit.com/product/64)), a cooling fan ([example](https://www.adafruit.com/product/3368)), and an [AdaFruit IO](https://io.adafruit.com/) account, if you have all of these materials, you're set 👍, though you also have to connect your Pi to the internet your computer is on, after you get your Pi.
+You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) or another [Raspberry Pi](https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch), a Pimoroni [Enviro Hat](https://shop.pimoroni.com/products/enviro?variant=31155658489939), an external temperature sensor, a CCS811 sensor, a breadboard ([example](https://www.adafruit.com/product/64)), a cooling fan ([example](https://www.adafruit.com/product/3368)), an unused [Google Account](https://www.google.com), and an [AdaFruit IO](https://io.adafruit.com/) account, if you have all of these materials, you're set 👍, though you also have to connect your Pi to the internet your computer is on, after you get your Pi.
 
 🔐 ***Please notify me if you notice any typos or any other kind of error (you may also [contribute](CONTRIBUTING.md)), or if you want to use the code in any of my MasterMonitor Scripts (I know, they're awesome 😎) - also take a look at this repository's [license](https://github.com/ThuviksaM/Berry_Blob/blob/master/LICENSE.md) - , thanks, I appreciate it. 😄***
 
@@ -21,7 +21,7 @@ You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspb
 ## [Wiring the Sensors to the Pi](../Images/sensor-wiring-img.jpg)
 
 Before you program anything you have to wire the sensors up...or nothing will work!
-The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen) used to help me and the others in the [#Enviro-MasterTeam](https://www.orcsgirls.org/masterclass) wire their sensors up!
+The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen) used to help me and the others in the [#enviro-masterteam](https://github.com/orcsgirls) wire their sensors up!
 
 ❗ ***The intersecting lines (wires) are in the same row on the breadboard.***
 
@@ -32,6 +32,10 @@ The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen)
 ## [MasterMonitor Sensor Script](../JupyterNotebooks/MasterMonitorSensorScript.ipynb)
 
 This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.
+
+<hr width= "10">
+
+### AdaFruit IO
 
 Make sure you change the AdaFruitIO_Username and the AdaFruitIO_Key variables to your username and key, and remove vvv (except for AdaFruitIO_Username, and AdaFruitIO_Key variables).
 ```python
@@ -56,6 +60,23 @@ ADAFRUIT_IO_KEY = "your-key"
 
 ❗ ***You can get your key by clicking the 'My Key' tab on the AdaFruitIO website.***
 
+<hr>
+
+### Google Sheets
+
+🔐 ***The below steps are important for your and your Google Sheet's security.***
+
+1. Go to [the Google Cloud Platform](https://console.cloud.google.com/)
+2. Login with your Google account
+3. Create a new project
+
+❗ ***Make sure this vvv matches your Google Sheet name.***
+```python
+sheet_name = "enviro-pi_log"
+```
+
+### Main Code
+
 You can also change the `time` placeholder in the below code to however long of a break you want your Pi to take before sending data to the AdaFruitIO Cloud.
 ```python
 if time_elapsed == time:
@@ -73,18 +94,18 @@ if time_elapsed == time:
 ```
 You have to also change the `feed-name` placeholders in the below variables to your AdaFruitIO feed names.
 ```python
-soundFeed = aio.feeds("feed-name")
-luxFeed = aio.feeds("feed-name")
-intTempCfeed = aio.feeds("feed-name")
-intTempFfeed = aio.feeds("feed-name")
-extemp2Feed = aio.feeds("feed-name")
-extempFeed = aio.feeds("feed-name")
-humidFeed = aio.feeds("feed-name")
-pressFeed = aio.feeds("feed-name")
-tvocsFeed = aio.feeds("feed-name")
-co2Feed = aio.feeds("feed-name")
+soundFeed = getFeed("feed-name")
+luxFeed = getFeed("feed-name")
+intTempCfeed = getFeed("feed-name")
+intTempFfeed = getFeed("feed-name")
+extemp2Feed = getFeed("feed-name")
+extempFeed = getFeed("feed-name")
+humidFeed = getFeed("feed-name")
+pressFeed = getFeed("feed-name")
+tvocsFeed = getFeed("feed-name")
+co2Feed = getFeed("feed-name")
 ```
-❗ ***Make sure you make a seperate feed for each of the variables.***
+❗ ***Make sure you make a seperate AdaFruit IO feed for each of the variables.***
 
 `intTempCfeed` and `intTempFfeed` variables are optional, so you can delete them, they just show the actual temperature of your Pi, and since the `intTempCfeed` and `intTempFfeed` variables are optional,
 ```python   
@@ -149,7 +170,7 @@ print("Drawing GIF, Stop This Cell To Exit!")
 
 <hr>
 
-Check out my teammates' enviroment monitoring and other super-cool code, they're awesome! 😎
-+ [github.com/apzzd/EnviroPi](https://github.com/apzzd/EnviroPi) - [Ada's](https://github.com/apzzd) code
-+ [github.com/JaVaLemn/EnviroPi](https://github.com/JaVaLemn/EnviroPi) - [Katie's](https://github.com/JaVaLemn) code
-+ [github.com/tproffen/AirMonitoringEnviro](https://github.com/tproffen/AirMonitoringEnviro) - [Dr. Proffen's](https://github.com/tproffen) code -- the actual master-code</p>
+# Check out my [#enviro-masterteam](https://github.com/orcsgirls) teammates' enviroment monitoring and other super-cool code, they're awesome! 😎
+## + [github.com/apzzd/EnviroPi](https://github.com/apzzd/EnviroPi) - [Ada's](https://github.com/apzzd) code
+## + [github.com/JaVaLemn/EnviroPi](https://github.com/JaVaLemn/EnviroPi) - [Katie's](https://github.com/JaVaLemn) code
+## + [github.com/tproffen/AirMonitoringEnviro](https://github.com/tproffen/AirMonitoringEnviro) - [Dr. Proffen's](https://github.com/tproffen) code -- the actual master-code</p>
