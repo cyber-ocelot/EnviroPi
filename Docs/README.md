@@ -60,7 +60,7 @@ ADAFRUIT_IO_KEY = "your-key"
 
 ❗ ***You can get your key by clicking the 'My Key' tab on the AdaFruitIO website.***
 
-<hr width= "230">
+<hr width= "530">
 
 ### Google Sheets
 
