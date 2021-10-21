@@ -29,7 +29,7 @@ The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen)
 
 <hr>
 
-## [MasterMonitor Sensor Script](../JupyterNotebooks/MasterMonitorSensorScript.ipynb)
+## [MasterMonitor Sensor Script](../JupyterNotebooks/MasterMonitorScript.ipynb)
 
 This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.
 
@@ -63,19 +63,6 @@ ADAFRUIT_IO_KEY = "your-key"
 <hr width= "600">
 
 ### Google Sheets
-
-🔐 ***The below steps are important for your and your Google Sheet's security.***
-
-1. Go to [the Google Cloud Platform](https://console.cloud.google.com/)
-2. Login with your Google account
-3. Create a new project
-4. Search up 'Google Drive" in the top search bar
-5. Select the "Google Drive API" choice
-6. Click the blue "Enable" button
-7. Search up "Google Sheets" in the top search bar
-8. Select the "Google Sheets API" choice
-9. Click the blue "Enable" button
-10. 
 
 ❗ ***Make sure this vvv matches your Google Sheet name.***
 ```python
