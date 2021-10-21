@@ -64,6 +64,8 @@ ADAFRUIT_IO_KEY = "your-key"
 
 ### Google Sheets
 
+🔐 ***Go [here](GOOGLE_SETUP) to find important instructions you MUST follow before using ANY code.***
+
 ❗ ***Make sure this vvv matches your Google Sheet name.***
 ```python
 sheet_name = "enviro-pi_log"
