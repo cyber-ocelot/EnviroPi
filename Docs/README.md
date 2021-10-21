@@ -69,6 +69,13 @@ ADAFRUIT_IO_KEY = "your-key"
 1. Go to [the Google Cloud Platform](https://console.cloud.google.com/)
 2. Login with your Google account
 3. Create a new project
+4. Search up 'Google Drive" in the top search bar
+5. Select the "Google Drive API" choice
+6. Click the blue "Enable" button
+7. Search up "Google Sheets" in the top search bar
+8. Select the "Google Sheets API" choice
+9. Click the blue "Enable" button
+10. 
 
 ❗ ***Make sure this vvv matches your Google Sheet name.***
 ```python
@@ -173,8 +180,6 @@ print("Drawing GIF, Stop This Cell To Exit!")
 <hr>
 
 ### Check out my [#enviro-masterteam](https://github.com/orcsgirls) teammates' enviroment monitoring and other super-cool code, they're awesome! 😎
- > [github.com/apzzd/EnviroPi](https://github.com/apzzd/EnviroPi) - [Ada's](https://github.com/apzzd) code
- > 
- > [github.com/JaVaLemn/EnviroPi](https://github.com/JaVaLemn/EnviroPi) - [Katie's](https://github.com/JaVaLemn) code
- > 
- > [github.com/tproffen/AirMonitoringEnviro](https://github.com/tproffen/AirMonitoringEnviro) - [Dr. Proffen's](https://github.com/tproffen) code -- the actual master-code</p>
+ - [github.com/apzzd/EnviroPi](https://github.com/apzzd/EnviroPi) - [Ada's](https://github.com/apzzd) code 
+ - [github.com/JaVaLemn/EnviroPi](https://github.com/JaVaLemn/EnviroPi) - [Katie's](https://github.com/JaVaLemn) code 
+ - [github.com/tproffen/AirMonitoringEnviro](https://github.com/tproffen/AirMonitoringEnviro) - [Dr. Proffen's](https://github.com/tproffen) code -- the actual master-code</p>
