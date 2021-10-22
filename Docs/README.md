@@ -168,7 +168,7 @@ print("Drawing GIF, Stop This Cell To Exit!")
 
 <hr>
 
-## My [@orcsgirls](https://github.com/orcsgirls) Teammates'
+## My [@orcsgirls](https://github.com/orcsgirls) Teammates' 👯
 
 Check out my [@orcsgirls](https://github.com/orcsgirls) teammates' enviroment monitoring and other super-cool code, they're awesome! 😎
  - [github.com/apzzd/EnviroPi](https://github.com/apzzd/EnviroPi) - [Ada's](https://github.com/apzzd) code 
