@@ -1,4 +1,4 @@
-# [Berry_Blob](https://github.com/ThuviksaM/Berry_Blob) [MasterMonitor Scripts](../MasterMonitor-Scripts) 🐍
+# [Berry_Blob](https://github.com/ThuviksaM/Berry_Blob) 🐍
 
 This repository has all my code for my enviroment monitoring RaspberryPi, named Berry_Blob 😆, you're welcome to explore around it! 🔎
 Wanna see the data Berry_Blob gathered? If so, [here](https://io.adafruit.com/Thuviksa/dashboards/weather-monitor) are my AdaFruitIO dashboards. 💻
@@ -25,7 +25,7 @@ The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen)
 
 ❗ ***The intersecting lines (wires) are in the same row on the breadboard.***
 
-<img type= "image/jpg" src= "../Images/sensor-wiring-img.jpg" alt= "wiring-diagram" width="300" height="300">
+<embed type= "image/jpg" src= "../Images/sensor-wiring-img.jpg" alt= "wiring-diagram" width="300" height="300">
 
 <hr>
 
