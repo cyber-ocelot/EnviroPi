@@ -7,7 +7,7 @@ Thank you so much, [Dr. Thomas Proffen](https://github.com/tproffen) and Amelie 
 
 <hr>
 
-## A Few Reminders
+## A Few Reminders 📆
 
 🔐 ***- Security Warning/Information***
 ❗ ***- Important Information/Warning***
@@ -18,7 +18,7 @@ You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspb
 
 <hr>
 
-## [Wiring the Sensors to the Pi](../Images/sensor-wiring-img.jpg)
+## [Wiring the Sensors to the Pi 🥧](../Images/sensor-wiring-img.jpg)
 
 Before you program anything you have to wire the sensors up...or nothing will work!
 The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen) used to help me and the others in @orcsgirls wire their sensors up!
@@ -29,7 +29,7 @@ The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen)
 
 <hr>
 
-## [MasterMonitor Sensor Script](../JupyterNotebooks/MasterMonitorScript.ipynb)
+## [MasterMonitor Sensor Script 🖱️](../JupyterNotebooks/MasterMonitorScript.ipynb)
 
 This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.
 
@@ -64,7 +64,7 @@ ADAFRUIT_IO_KEY = "your-key"
 
 ### Google Sheets
 
-🔐 ***Go [here](GOOGLE_SETUP) to find important instructions you MUST follow before using ANY code.***
+🔐 ***Go [here](GOOGLE_SETUP.md) to find important instructions you MUST follow before using ANY code.***
 
 ❗ ***Make sure this vvv matches your Google Sheet name.***
 ```python
@@ -149,7 +149,7 @@ are optional, too.
 
 <hr>
 
-## [MasterMonitor GIF Display Script](../JupyterNotebooks/MasterMonitorGIFDisplayScript.ipynb)
+## [MasterMonitor GIF Display Script 🖼️](../JupyterNotebooks/MasterMonitorGIFDisplayScript.ipynb)
 
 This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!
 
@@ -168,7 +168,9 @@ print("Drawing GIF, Stop This Cell To Exit!")
 
 <hr>
 
-### Check out my [#enviro-masterteam](https://github.com/orcsgirls) teammates' enviroment monitoring and other super-cool code, they're awesome! 😎
+## My [@orcsgirls](https://github.com/orcsgirls) Teammates' 👯
+
+Check out my [@orcsgirls](https://github.com/orcsgirls) teammates' enviroment monitoring and other super-cool code, they're awesome! 😎
  - [github.com/apzzd/EnviroPi](https://github.com/apzzd/EnviroPi) - [Ada's](https://github.com/apzzd) code 
  - [github.com/JaVaLemn/EnviroPi](https://github.com/JaVaLemn/EnviroPi) - [Katie's](https://github.com/JaVaLemn) code 
  - [github.com/tproffen/AirMonitoringEnviro](https://github.com/tproffen/AirMonitoringEnviro) - [Dr. Proffen's](https://github.com/tproffen) code -- the actual master-code</p>

@@ -1,4 +1,6 @@
-🔐 ***The below steps are important for your and your Google Sheet's security.***
+# Google Account Needed Setup
+
+### Enable All Needed APIs
 
 1. Go to [the Google Cloud Platform](https://console.cloud.google.com/)
 2. Login with your Google account
@@ -9,4 +11,7 @@
 7. Search up "Google Sheets" in the top search bar
 8. Select the "Google Sheets API" choice
 9. Click the blue "Enable" button
-10. 
+
+### Create `client_secret.json` File
+
+1. 
