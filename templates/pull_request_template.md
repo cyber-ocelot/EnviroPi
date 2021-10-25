@@ -7,5 +7,5 @@ assignees: ''
 
 ---
 
-**Please describe and Reason your edits**
+**Please describe and reason your edits**
 On line [...] in cell [...] I made a few edits, because [...]
