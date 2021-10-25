@@ -8,4 +8,4 @@ assignees: ''
 ---
 
 **Describe and reason your changes**
-In cell [...] on line [...], I made [Number] change, I added these changes, because [...]
+In cell [number] on line [number], I made [number] change(s), I added these changes, because [...]
