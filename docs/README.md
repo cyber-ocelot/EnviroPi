@@ -107,43 +107,40 @@ co2Feed = getFeed("feed-name")
 
 `intTempCfeed` and `intTempFfeed` variables are optional, so you can delete them, they just show the actual temperature of your Pi, and since the `intTempCfeed` and `intTempFfeed` variables are optional,
 ```python   
-InternalC = Celcius - External
-InternalF = Fahrenheit - External2
+interc = bme280.get_temperature()
+interf = interc * 1.8 + 32
 ```
 in
 ```python
-Amps = noise.get_amplitudes_at_frequency_ranges(range)
-Light = ltr559.get_lux()
-External = readTemp()
-External2 = External * 1.8 + 32
-Celcius = bme280.get_temperature()
-Fahrenheit = Celcius * 1.8 + 32
-InternalC = Celcius - External
-InternalF = Fahrenheit - External2
-Humidity = bme280.get_humidity()
-Pressure = bme280.get_pressure()
-CO2 = ccs.eco2
-TVOC = ccs.tvoc
+amps = noise.get_amplitudes_at_frequency_ranges(range)
+lux = ltr559.get_lux()
+extc = readTemp()
+extf = External * 1.8 + 32
+interc = Celcius - External
+interf = Fahrenheit - External2
+humid = bme280.get_humidity()
+press = bme280.get_pressure()
+co2 = ccs.eco2
+tvocs = ccs.tvoc
+prox = ltr559.get_proximity()
 ```
 and
 ```python
-aio.send_data(intTempCfeed.key, InternalC, metadata)
-aio.send_data(intTempFfeed.key, InternalF, metadata)
+aio.send_data(intTempCfeed.key, interc, metadata)
+aio.send_data(intTempFfeed.key, interf, metadata)
 ```
 in
 ```python
-time_calculation = time.time()
-aio.send_data(co2Feed.key, CO2, metadata)
-aio.send_data(tvocsFeed.key, TVOC, metadata)
-aio.send_data(soundFeed.key, Amps[0], metadata)
-aio.send_data(luxFeed.key, Light, metadata)
-aio.send_data(intTempCfeed.key, InternalC, metadata)
-aio.send_data(intTempFfeed.key, InternalF, metadata)
-aio.send_data(extemp2Feed.key, External2, metadata)
-aio.send_data(extempFeed.key, External, metadata)
-aio.send_data(humidFeed.key, Humidity, metadata)
-aio.send_data(pressFeed.key, Pressure, metadata)
-time_elapsed = time.time() - time_calculation
+aio.send_data(co2Feed.key, co2, metadata)
+aio.send_data(tvocsFeed.key, tvocs, metadata)
+aio.send_data(soundFeed.key, amps[0], metadata)
+aio.send_data(luxFeed.key, lux, metadata)
+aio.send_data(intTempCfeed.key, interc, metadata)
+aio.send_data(intTempFfeed.key, interf, metadata)
+aio.send_data(extemp2Feed.key, extf, metadata)
+aio.send_data(extempFeed.key, extc, metadata)
+aio.send_data(humidFeed.key, humid, metadata)
+aio.send_data(pressFeed.key, press, metadata)
 ```
 are optional, too.
 
