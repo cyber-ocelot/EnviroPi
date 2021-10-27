@@ -18,7 +18,7 @@ You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspb
 
 <hr>
 
-## [Wiring the Sensors to the Pi 🥧](../Images/sensor-wiring-img.jpg)
+## [Wiring the Sensors to the Pi 🥧](../images/sensor-wiring-img.jpg)
 
 Before you program anything you have to wire the sensors up...or nothing will work!
 The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen) used to help me and the others in @orcsgirls wire their sensors up!
@@ -29,7 +29,7 @@ The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen)
 
 <hr>
 
-## [MasterMonitor Sensor Script 🖱️](../JupyterNotebooks/MasterMonitorScript.ipynb)
+## [MasterMonitor Sensor Script 🖱️](../script/MasterMonitorScript.ipynb)
 
 This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.
 
@@ -146,7 +146,7 @@ are optional, too.
 
 <hr>
 
-## [MasterMonitor GIF Display Script 🖼️](../JupyterNotebooks/MasterMonitorGIFDisplayScript.ipynb)
+## [MasterMonitor GIF Display Script 🖼️](../script/MasterMonitorGIFDisplayScript.ipynb)
 
 This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!
 
