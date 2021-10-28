@@ -1,6 +1,6 @@
 # [Berry_Blob](https://github.com/ThuviksaM/Berry_Blob) 🐍
 
-This repository has all my code for my enviroment monitoring RaspberryPi, named Berry_Blob 😆, you're welcome to explore around it! 🔎
+This repository has all my code for my enviroment monitoring RaspberryPi, named Berry_Blob 🍉, you're welcome to explore around it! 🔎
 Wanna see the data Berry_Blob gathered? If so, [here](https://io.adafruit.com/Thuviksa/dashboards/weather-monitor) are my AdaFruitIO dashboards. 💻
 
 Thank you so much, [Dr. Thomas Proffen](https://github.com/tproffen) and Amelie Nagle for all the guidance and debugging help, you both are magical. 🦄
@@ -12,24 +12,24 @@ Thank you so much, [Dr. Thomas Proffen](https://github.com/tproffen) and Amelie 
 🔐 ***- Security Warning/Information***
 ❗ ***- Important Information/Warning***
 
-You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) or another [Raspberry Pi](https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch), a Pimoroni [Enviro Hat](https://shop.pimoroni.com/products/enviro?variant=31155658489939), an external temperature sensor, a CCS811 sensor, a breadboard ([example](https://www.adafruit.com/product/64)), a cooling fan ([example](https://www.adafruit.com/product/3368)), an unused [Google Account](https://www.google.com), and an [AdaFruit IO](https://io.adafruit.com/) account, if you have all of these materials, you're set 👍, though you also have to connect your Pi to the internet your computer is on, after you get your Pi.
+You will need a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) or another [Raspberry Pi](https://www.adafruit.com/?q=Raspberry+Pi&sort=BestMatch), a [Pimoroni Enviro Hat](https://shop.pimoroni.com/products/enviro?variant=31155658489939), an external temperature sensor, a CCS811 sensor, a breadboard ([example](https://www.adafruit.com/product/64)), a cooling fan ([example](https://www.adafruit.com/product/3368)), an unused [Google Account](https://www.google.com), and an [AdaFruit IO](https://io.adafruit.com/) account, if you have all of these materials, you're set 👍, though you also have to connect your Pi to the internet your computer is on, after you get your Pi.
 
-🔐 ***Please notify me if you notice any typos or any other kind of error (you may also [contribute](CONTRIBUTING.md)), or if you want to use the code in any of my MasterMonitor Scripts (I know, they're awesome 😎) - also take a look at this repository's [license](https://github.com/ThuviksaM/Berry_Blob/blob/master/LICENSE.md) - , thanks, I appreciate it. 😄***
+🔐 ***Please notify me if you notice any typos or any other kind of error (you may also [contribute](CONTRIBUTING.md)), or if you want to use the code in any of my scripts (I know, they're awesome 😎) - also take a look at this repository's [license](https://github.com/ThuviksaM/Berry_Blob/blob/master/LICENSE.md) - , thanks, I appreciate it. 😄***
 
 <hr>
 
-## [Wiring the Sensors to the Pi 🥧](../Images/sensor-wiring-img.jpg)
+## [Wiring the Sensors to the Pi 🥧](../images/sensor-wiring-img.jpg)
 
 Before you program anything you have to wire the sensors up...or nothing will work!
 The image below is the wiring diagram [Dr. Proffen](https://github.com/tproffen) used to help me and the others in @orcsgirls wire their sensors up!
 
 ❗ ***The intersecting lines (wires) are in the same row on the breadboard.***
 
-<img type= "image/jpg" src= "../Images/sensor-wiring-img.jpg" alt= "wiring-diagram" width="300" height="300">
+<img type= "image/jpg" src= "../images/sensor-wiring-img.jpg" alt= "wiring-diagram" width="300" height="300">
 
 <hr>
 
-## [MasterMonitor Sensor Script 🖱️](../JupyterNotebooks/MasterMonitorScript.ipynb)
+## [MasterMonitor Sensor Script 🖱️](../script/MasterMonitorScript.ipynb)
 
 This is the MasterMonitor Script that controls all the sensor readings and sends them to AdaFruitIO cloud, which then puts the data into my dashboard's visual graphs and charts.
 
@@ -107,49 +107,46 @@ co2Feed = getFeed("feed-name")
 
 `intTempCfeed` and `intTempFfeed` variables are optional, so you can delete them, they just show the actual temperature of your Pi, and since the `intTempCfeed` and `intTempFfeed` variables are optional,
 ```python   
-InternalC = Celcius - External
-InternalF = Fahrenheit - External2
+interc = bme280.get_temperature()
+interf = interc * 1.8 + 32
 ```
 in
 ```python
-Amps = noise.get_amplitudes_at_frequency_ranges(range)
-Light = ltr559.get_lux()
-External = readTemp()
-External2 = External * 1.8 + 32
-Celcius = bme280.get_temperature()
-Fahrenheit = Celcius * 1.8 + 32
-InternalC = Celcius - External
-InternalF = Fahrenheit - External2
-Humidity = bme280.get_humidity()
-Pressure = bme280.get_pressure()
-CO2 = ccs.eco2
-TVOC = ccs.tvoc
+amps = noise.get_amplitudes_at_frequency_ranges(range)
+lux = ltr559.get_lux()
+extc = readTemp()
+extf = External * 1.8 + 32
+interc = Celcius - External
+interf = Fahrenheit - External2
+humid = bme280.get_humidity()
+press = bme280.get_pressure()
+co2 = ccs.eco2
+tvocs = ccs.tvoc
+prox = ltr559.get_proximity()
 ```
 and
 ```python
-aio.send_data(intTempCfeed.key, InternalC, metadata)
-aio.send_data(intTempFfeed.key, InternalF, metadata)
+aio.send_data(intTempCfeed.key, interc, metadata)
+aio.send_data(intTempFfeed.key, interf, metadata)
 ```
 in
 ```python
-time_calculation = time.time()
-aio.send_data(co2Feed.key, CO2, metadata)
-aio.send_data(tvocsFeed.key, TVOC, metadata)
-aio.send_data(soundFeed.key, Amps[0], metadata)
-aio.send_data(luxFeed.key, Light, metadata)
-aio.send_data(intTempCfeed.key, InternalC, metadata)
-aio.send_data(intTempFfeed.key, InternalF, metadata)
-aio.send_data(extemp2Feed.key, External2, metadata)
-aio.send_data(extempFeed.key, External, metadata)
-aio.send_data(humidFeed.key, Humidity, metadata)
-aio.send_data(pressFeed.key, Pressure, metadata)
-time_elapsed = time.time() - time_calculation
+aio.send_data(co2Feed.key, co2, metadata)
+aio.send_data(tvocsFeed.key, tvocs, metadata)
+aio.send_data(soundFeed.key, amps[0], metadata)
+aio.send_data(luxFeed.key, lux, metadata)
+aio.send_data(intTempCfeed.key, interc, metadata)
+aio.send_data(intTempFfeed.key, interf, metadata)
+aio.send_data(extemp2Feed.key, extf, metadata)
+aio.send_data(extempFeed.key, extc, metadata)
+aio.send_data(humidFeed.key, humid, metadata)
+aio.send_data(pressFeed.key, press, metadata)
 ```
 are optional, too.
 
 <hr>
 
-## [MasterMonitor GIF Display Script 🖼️](../JupyterNotebooks/MasterMonitorGIFDisplayScript.ipynb)
+## [MasterMonitor GIF Display Script 🖼️](../script/MasterMonitorGIFDisplayScript.ipynb)
 
 This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!
 
