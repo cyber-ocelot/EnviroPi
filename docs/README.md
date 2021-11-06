@@ -146,7 +146,9 @@ are optional, too.
 
 <hr>
 
-## [MasterMonitor GIF Display Script 🖼️](../script/MasterMonitorGIFDisplayScript.ipynb)
+## Funtime 🎊
+
+### [MasterMonitor GIF Display Script 🖼️](../script/MasterMonitorGIFDisplayScript.ipynb)
 
 This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!
 
