@@ -1,4 +1,4 @@
-# [Berry_Blob](https://github.com/ThuviksaM/Berry_Blob) 🐍
+# [Berry_Blob](https://github.com/ThuviksaM/Berry_Blob) 🍉
 
 This repository has all my code for my enviroment monitoring RaspberryPi, named Berry_Blob 🍉, you're welcome to explore around it! 🔎
 Wanna see the data Berry_Blob gathered? If so, [here](https://io.adafruit.com/Thuviksa/dashboards/weather-monitor) are my AdaFruitIO dashboards. 💻
@@ -146,7 +146,9 @@ are optional, too.
 
 <hr>
 
-## [MasterMonitor GIF Display Script 🖼️](../script/MasterMonitorGIFDisplayScript.ipynb)
+## Funtime 🎊
+
+### [MasterMonitor GIF Display Script 🖼️](../script/MasterMonitorGIFDisplayScript.ipynb)
 
 This MasterMonitor Script has the exact code you need to make a cute GIF appear on your display!
 
