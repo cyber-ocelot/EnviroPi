@@ -1,1 +1,1 @@
-<button></buttton>
+<button onclick = "">🌈 Current Spectrum 🌈</buttton>
