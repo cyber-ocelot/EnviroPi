@@ -1,4 +1,4 @@
-# [Enviro_Pi](https://github.com/ThuviksaM/Enviro_Pi)
+# [Enviro_Pi](https://github.com/ThuviksaM/Enviro_Pi) 🌆
 
 This repository has all my code for the enviroment monitoring part of my RaspberryPi, named Berry_Blob 🍉, you're welcome to explore around it! 🔎
 Wanna see the data Berry_Blob gathered? If so, [here](https://io.adafruit.com/Thuviksa/dashboards/weather-monitor) are my AdaFruitIO dashboards. 💻
